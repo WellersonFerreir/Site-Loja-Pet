@@ -1,6 +1,5 @@
 header {
     background-color: #ff0000;
-    padding: 20px;
 }
 
 nav ul {
@@ -24,22 +23,35 @@ h1 {
 .search-container {
     display: flex;
     align-items: center;
-  }
-  
-  .search-container input{
+}
+
+
+input[type=text] {
     padding: 6px;
+    width: 360px;
     margin-right: 10px;
     font-size: 17px;
     border: none;
-  }
-  
-  .fa-search {
+    border-radius: 10px;
+}
+
+.fa-search {
     font-size: 20px;
-    color: #999;
-  }
-  
-  button[type=submit] {
+    color: rgb(255, 255, 255);
+}
+
+button[type=submit] {
     background-color: transparent;
     border: none;
     cursor: pointer;
-  }
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho__nav{
+    display: flex;
+}
