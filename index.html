@@ -11,33 +11,35 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./css/mobilefirst.css">
   <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 </head>
 
 <body>
-  <header class="cabecalho">
-    <div>
-      <img src="./img/logotipo.png" alt="logotipo" width="150" height="150">
-    </div>
-    <nav class="cabecalho__nav">
-      <form>
-        <div class="search-container">
-          <input type="text" placeholder="Search...">
-          <button type="submit"><i class="fa fa-search"></i></button>
+  <header>
+    <div class="cabecalho">
+      <div class="cabecalho__logo">
+        <img src="./img/logotipo.png" alt="logotipo" width="150" height="150">
+      </div>
+      <nav>
+        <div class="hamburguer">
+          <i class="fas fa-bars"></i>
         </div>
-      </form>
+        <ul class="menu">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Entrar</a></li>
+          <li><a href="#">Cadastre-se</a></li>
+        </ul>
+    </div>
     </nav>
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">Entrar</a></li>
-        <li><a href="#">Cadastre-se</a></li>
-      </ul>
-    </nav>
+    <div class="cart">
+      <i class="fas fa-shopping-cart"></i>
+    </div>
   </header>
   <main>
 
