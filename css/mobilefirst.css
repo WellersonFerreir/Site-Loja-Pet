@@ -1,13 +1,13 @@
 header {
     background-color: #ff0000;
-    height: 500px;
+    height: 115px;
 }
 
 .cabecalho {
-    width: 100%;
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    display: grid;
+    display: flex;
     align-items: center;
 }
 
@@ -42,7 +42,6 @@ nav {
 }
 
 .menu a {
-    text-decoration: none;
     color: #333;
 }
 
