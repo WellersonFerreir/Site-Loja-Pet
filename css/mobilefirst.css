@@ -1,85 +1,57 @@
 header {
     background-color: #ff0000;
     height: 115px;
-}
-
-.cabecalho {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.cabecalho__logo {
-    width: 80px;
+.fa-shopping-cart {
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+}
+
+.cabecalho-logo img {
     height: 80px;
+    width: 80px;
 }
 
-.cabecalho__logo img {
-    max-width: 100%;
-    height: auto;
-}
-
-nav {
-    display: none;
-}
-
-.hamburger {
-    display: none;
+.fa-bars,
+.fa-shopping-cart {
+    font-size: 25px;
+    color: #000;
     cursor: pointer;
 }
 
-.menu {
+header nav {
     display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
 
-.menu li {
-    margin-left: 20px;
+form {
+    width: 100%;
 }
 
-.menu a {
-    color: #333;
+.cabecalho-search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: transparent;
 }
 
-.cart {
-    cursor: pointer;
+.cabecalho-search input {
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px;
+
 }
 
-@media (max-width: 900px) {
-    .logo {
-        width: 100px;
-    }
-
-    nav {
-        display: flex;
-    }
-
-    .hamburger {
-        display: block;
-        font-size: 1.5em;
-    }
-
-    .menu {
-        display: none;
-        position: absolute;
-        top: 50px;
-        left: 0;
-        width: 100%;
-        background-color: #F5F5F5;
-    }
-
-    .menu li {
-        width: 100%;
-        text-align: center;
-        margin-left: 0;
-    }
-
-    .menu a {
-        display: block;
-        padding: 10px;
-    }
+.cabecalho-search button {
+    font-size: 18px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
 }
