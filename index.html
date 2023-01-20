@@ -6,15 +6,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>#3</title>
-  <link rel="stylesheet" href="./css/estilo.css">
-  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./assests/css/estilo.css">
+  <link rel="stylesheet" href="./assests/css/reset.css">
+  <link rel="stylesheet" href="./assests/css/mobilefirst.css">
+  <link rel="stylesheet" href="./assests/css/carrossel.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="./css/mobilefirst.css">
   <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
     crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kalam&family=Open+Sans:wght@300;400;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -24,7 +31,7 @@
         <i class="fa fa-bars"></i>
       </div>
       <div class="cabecalho-logo">
-        <img src="./img/logotipo.png" alt="logotipo">
+        <img src="./assests/img/logotipo.png" alt="logotipo">
       </div>
       <div class="cabecalho-icone-carrinho">
         <i class="fa fa-shopping-cart"></i>
@@ -32,22 +39,51 @@
     </nav>
     <form action="#">
       <div class="cabecalho-search">
-        <input type="text" placeholder="Pesquisar...">
-        <button type="submit" class="cabecalho-icone-search">
-          <i class="fa fa-search"></i>
-        </button>
+        <input type="text" placeholder="Pesquisar..." class="pesquisar-cabecalho">
+        <a href="#"><img src="./assests/img/icone-pesquisar.svg" alt="icone de pesquisa" class="icone-pesquisa"></a>
       </div>
     </form>
   </header>
-  
-  
-  <main>
 
+
+  <main>
+    <div class="carrossel">
+      <h2 class="carrossel-titulo">
+        Produtos para você
+      </h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="./assests/img/caminha.png" alt="bolinha"></div>
+          <div class="swiper-slide"><img src="./assests/img/caixa.png" alt="caixa"></div>
+          <div class="swiper-slide"><img src="./assests/img/corda.png" alt="corda"></div>
+          <div class="swiper-slide"><img src="./assests/img/kong.png" alt="kong"></div>
+          <div class="swiper-slide"><img src="./assests/img/osso.png" alt="osso"></div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+    <div class="login-box">
+      <h3>Boas-vindas á Cobasi</h3>
+      <p>tenha uma experiencia personalizada e focada em você, seu pet e sua casa.</p>
+    </div>
   </main>
   <footer>
 
   </footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./assests/js/swipe.js"></script>
 </body>
 
 </html>
