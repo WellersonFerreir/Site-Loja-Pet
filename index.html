@@ -22,6 +22,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Kalam&family=Open+Sans:wght@300;400;700&family=Roboto:wght@400;700&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="./assests/css/grid.css">
 </head>
 
 <body>
@@ -48,9 +49,6 @@
 
   <main>
     <div class="carrossel">
-      <h2 class="carrossel-titulo">
-        Produtos para você
-      </h2>
       <!-- Slider main container -->
       <div class="swiper">
         <!-- Additional required wrapper -->
@@ -74,9 +72,39 @@
         <div class="swiper-scrollbar"></div>
       </div>
     </div>
-    <div class="login-box">
-      <h3>Boas-vindas á Cobasi</h3>
-      <p>tenha uma experiencia personalizada e focada em você, seu pet e sua casa.</p>
+    <div>
+      <div class="login-box">
+        <h3 class="titulo-login">Boas-vindas á Petshop</h3>
+        <p class="texto-login">tenha uma experiencia personalizada e focada em você, seu pet e sua casa.</p>
+        <button class="botao-login">Fazer login</button>
+        <button class="botao-criarconta">Criar conta</button>
+      </div>
+    </div>
+    <div>
+      <h2 class="titulo-carrossel">Produtos para você</h2>
+    </div>
+
+    <div class="grid-container">
+      <div class="grid-item">
+        <img src="./assests/img/arranhador.png" alt="arranhador para gato" class="grid-img">
+        <h3 class="nome-item">Arranhador para gato</h3>
+        <p class="desc-item">A partir de <br> R$ 49,90</p>
+      </div>
+      <div class="grid-item">
+        <img src="./assests/img/casinha.png" alt="casinha de cachorro" class="grid-img">
+        <h3 class="nome-item">Casinha para cachorro</h3>
+        <p class="desc-item">A partir de <br> R$ 149,90</p>
+      </div>
+      <div class="grid-item">
+        <img src="./assests/img/ração.png" alt="ração para cachorro adulto" class="grid-img">
+        <h3 class="nome-item">Ração para cachorro</h3>
+        <p class="desc-item">A partir de <br> R$ 59,90</p>
+      </div>
+      <div class="grid-item">
+        <img src="./assests/img/shampoo.png" alt="shampoo para cahorro" class="grid-img">
+        <h3 class="nome-item">Shampoo para cachorro</h3>
+        <p class="desc-item">A partir de <br> R$ 9,90</p>
+      </div>
     </div>
   </main>
   <footer>

@@ -1,5 +1,6 @@
 .carrossel {
     align-items: center;
+    margin-top: 1rem;
 }
 
 .carrossel-titulo{
@@ -18,4 +19,13 @@
 .swiper-button-prev,
 .swiper-button-next{
     display: none;
+}
+
+.titulo-carrossel{
+    margin: 1rem 0 1rem 1.5rem;
+}
+
+.img-carrossel{
+    height: 70px;
+    width: 70px;
 }
