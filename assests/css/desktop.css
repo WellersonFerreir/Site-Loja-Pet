@@ -1,19 +1,36 @@
-@media screen and (min-width:900px){
+@media screen and (min-width:900px) {
     .swiper-slide img {
         height: 22rem;
         width: 100%;
     }
 
-    .main{
+    .main {
         display: flex;
-    }
-    .login-box{
-        width: 50%;
-        height: 50%;
-        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 
-    .produtos{
+    .login-box {
+        width: 30rem;
+        height: 50%;
+        text-align: center;
+        align-items: center;
+        margin-right: 50px;
+    }
+
+    .botao-login {
+        width: 40%;
+    }
+
+    .produtos {
         width: 50%;
     }
+
+    .img-caminha {
+        background-image: url('./caminha-small.png');
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
 }
